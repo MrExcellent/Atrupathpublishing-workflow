@@ -1,0 +1,26 @@
+{
+  "name": "atrupathpublishing-workflow",
+  "version": "1.0.0",
+  "description": "Continuous integration, deployment, and automation workflows for Atru Path Publishing platform.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "lint": "eslint src scripts tests",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://localhost:26831/MrExcellent/Atrupathpublishing-workflow"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.8.1",
+    "jest": "^30.4.2"
+  }
+}
